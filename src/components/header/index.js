@@ -5,7 +5,7 @@ function Header() {
     <div>
       <div className="header-container" >
         <h1 className="header-text" >
-          Build Your Own Pizza !
+          Build Your Own Pizza
         </h1>
       </div>
     </div>
