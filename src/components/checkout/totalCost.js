@@ -2,9 +2,9 @@ import React from 'react';
 
 function TotalCost({toppings}) {
   const calculateTotal = () => {
-    let total = 10; // base cost
+    let total = 5; // base cost
     Object.keys(toppings).forEach(item => {
-      total += toppings[item] * 1.25;
+      total += toppings[item] * 0.75;
     });
     return total;
   };
